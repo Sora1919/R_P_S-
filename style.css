@@ -1,0 +1,58 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
+
+#rps_box .box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: aqua;
+}
+
+#rps_box .box .score
+{
+    margin: 30px auto;
+}
+
+#rps_box .box .score .tit
+{
+    display: flex;
+    gap: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#rps_box .box .score .sco
+{
+    margin: 30px  auto 30px 40px;
+    display: flex;
+    gap: 250px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+#rps_box .box .buttons
+{
+    display: flex;
+    gap: 100px;
+}
+
+#rps_box .box .buttons button
+{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+#rps_box .box .buttons button:hover
+{
+    cursor: pointer;
+}
